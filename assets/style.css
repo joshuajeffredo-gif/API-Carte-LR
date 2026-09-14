@@ -1,0 +1,70 @@
+#map {
+    height: 5000px;
+
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#map {
+    width: 90%;
+    height: 600px;
+    margin: 30px auto;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
+p {
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+}
+
+
+/* WC */
+
+.marker-wc {
+    background-color: red;
+
+    width: 30px !important;
+    height: 30px !important;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+
+    border: 2px solid white;
+}
+
+
+/* Vélos */
+
+.marker-velo {
+    background-color: blue;
+
+    width: 30px !important;
+    height: 30px !important;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 18px;
+
+    border: 2px solid white;
+}
