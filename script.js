@@ -1,7 +1,11 @@
 var map = L.map('map').setView([46.16, -1.15], 13);
 
-L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: "&copy; OpenStreetMap"
+const fondIGN = "https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0"
+    + "&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&STYLE=normal&FORMAT=image/png"
+    + "&TILEMATRIXSET=PM&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}";
+
+L.tileLayer(fondIGN, {
+    attribution: 'Fond de carte : <a href="https://www.ign.fr/">IGN</a>'
 }).addTo(map);
 
 const iconeWC = L.divIcon({

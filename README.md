@@ -18,7 +18,7 @@ Cette carte permet de repérer les toilettes publiques et les stations de vélos
 
 3. Ouvre [http://localhost:8080](http://localhost:8080) dans ton navigateur.
 
-Une connexion Internet est nécessaire pour charger Leaflet, le fond de carte OpenStreetMap et les données de l’agglomération.
+Une connexion Internet est nécessaire pour charger Leaflet, le fond de carte Plan IGN et les données de l’agglomération.
 
 ## Fonctionnement
 
